@@ -1,0 +1,7 @@
+def Hello(name)
+  puts "Hi, I'm " + name["first"] + name["second"]
+end
+
+name = {"first" => "Arjun", "second" => "Venkataswamy"}
+
+Hello
